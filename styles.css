@@ -160,4 +160,51 @@ body {
           flex-grow: 2;
   background-color: orange;
 }
+
+#layout10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 3px solid black;
+  padding: 8px;
+}
+
+#layout11 {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 3px solid black;
+  padding: 8px;
+}
+
+#layout11 .red {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background-color: red;
+}
+
+#layout11 .green {
+  background-color: green;
+}
+
+#layout11 .blue {
+  background-color: blue;
+}
+
+#layout11 .orange {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: orange;
+}
 /*# sourceMappingURL=Styles.css.map */

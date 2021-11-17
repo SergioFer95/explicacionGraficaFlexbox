@@ -120,3 +120,40 @@ body{
     }
 }
 
+#layout10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding: 8px;
+}
+
+#layout11{
+    height: 700px;
+    // align-items: center; Si dejamos de comentar este código y se aplica, la .green y la .blue ya tendrían orden que obedecer y no ocuparían su 100% como lo están haciendo.
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding: 8px;
+
+    .red{
+        align-self: flex-start;
+        background-color: red;
+    }
+    
+    .green{
+        // Como no la hemos dotado de "aling-self", esta caja-hijo ocupa su 100% de forma automática tal cual se lo hemos indicado
+        background-color: green;
+    }
+    
+    .blue{
+        // Como no la hemos dotado de "aling-self", esta caja-hijo ocupa su 100% de forma automática tal cual se lo hemos indicado
+        background-color:blue;
+    }
+    
+    .orange{
+        align-self: flex-end;
+        background-color:orange;
+    }
+}
