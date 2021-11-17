@@ -1,90 +1,155 @@
-body{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ESTILOS DE DISPLAY:FLEX */
-#layout{
-    display: flex;
-    border: 3px solid black;
-    padding: 8px;
+#layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid black;
+  padding: 8px;
 }
 
-.caja{
-    font-weight: bold;
-    margin: 10px;
-    padding: 20px;
-    background-color: #cccc;
-    font-size: 20px;
-    border: 4px solid grey;
-    color: white;
+.caja {
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px;
+  background-color: #cccc;
+  font-size: 20px;
+  border: 4px solid grey;
+  color: white;
 }
 
-.red{
-    background-color: red;
+.red {
+  background-color: red;
 }
 
-.green{
-    background-color: green;
+.green {
+  background-color: green;
 }
 
-.blue{
-    background-color:blue;
+.blue {
+  background-color: blue;
 }
 
-.orange{
-    background-color:orange;
+.orange {
+  background-color: orange;
 }
 
 /* FIN DE ESTILOS DISPLAY:FLEX */
-
-
-
 /* INICIO DE ESTILOS DISPLAY:FLEX */
-#layout2{
-    display: inline-flex;
-    border: 3px solid black;
-    padding: 8px;
+#layout2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 3px solid black;
+  padding: 8px;
 }
 
 /* FIN DE ESTILOS DISPLAY:INLINE-FLEX */
-
-#layout3{
-    display: flex;
-    flex-direction: row;
-    border: 3px solid black;
-    padding: 8px;
-}
-#layout5{
-    display: flex;
-    flex-direction: row-reverse;
-    border: 3px solid black;
-    padding: 8px;
+#layout3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 3px solid black;
+  padding: 8px;
 }
 
-#layout4{
-    display: flex;
-    flex-direction: column;
-    border: 3px solid black;
-    padding: 8px;
+#layout5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border: 3px solid black;
+  padding: 8px;
 }
 
-#layout6{
-    display: flex;
-    flex-direction: column-reverse;
-    border: 3px solid black;
-    padding: 8px;
+#layout4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 3px solid black;
+  padding: 8px;
 }
 
-#layout7{
-    display: flex;
-    border: 3px solid black;
-    padding: 8px;
+#layout6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  border: 3px solid black;
+  padding: 8px;
 }
 
-#layout8{
-    display: flex;
-    flex-wrap: wrap;
-    border: 3px solid black;
-    padding: 8px;
+#layout7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid black;
+  padding: 8px;
 }
+
+#layout8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 3px solid black;
+  padding: 8px;
+}
+
+#layout9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 3px solid black;
+  padding: 8px;
+}
+
+#layout9 .red {
+  -webkit-box-flex: 8;
+      -ms-flex-positive: 8;
+          flex-grow: 8;
+  background-color: red;
+}
+
+#layout9 .green {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  background-color: green;
+}
+
+#layout9 .blue {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  background-color: blue;
+}
+
+#layout9 .orange {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  background-color: orange;
+}
+/*# sourceMappingURL=Styles.css.map */
