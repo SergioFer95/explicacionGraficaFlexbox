@@ -126,6 +126,8 @@ body {
 }
 
 #layout9 .red {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   -webkit-box-flex: 8;
       -ms-flex-positive: 8;
           flex-grow: 8;
@@ -133,6 +135,8 @@ body {
 }
 
 #layout9 .green {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -140,6 +144,8 @@ body {
 }
 
 #layout9 .blue {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -147,6 +153,8 @@ body {
 }
 
 #layout9 .orange {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;

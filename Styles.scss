@@ -96,21 +96,25 @@ body{
     padding: 8px;
 
     .red{
+        flex-basis: 20%;
         flex-grow: 8;
         background-color: red;
     }
     
     .green{
+        flex-basis: 20%;
         flex-grow: 2;
         background-color: green;
     }
     
     .blue{
+        flex-basis: 20%;
         flex-grow: 2;
         background-color:blue;
     }
     
     .orange{
+        flex-basis: 20%;
         flex-grow: 2;
         background-color:orange;
     }

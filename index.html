@@ -257,8 +257,8 @@
             <div class="caja orange">
                 Caja 4
             </div>
+            <h2>SI QUISIÉRAMOS AHORRARNOS ALGUNAS LÍNEAS DE CÓDIGO, PODRÍAMOS ENGLOBAR TANTO EL FLEX-DIRECTION, COMO EL FLEX-WRAP:WRAP EN LO SIGUIENTE: flex-flow: row wrap; / flex-flow: column wrap; / flex-flow:column-reverse wrap;</h2>
         </section>
-        <h2>SI QUISIÉRAMOS AHORRARNOS ALGUNAS LÍNEAS DE CÓDIGO, PODRÍAMOS ENGLOBAR TANTO EL FLEX-DIRECTION, COMO EL FLEX-WRAP:WRAP EN LO SIGUIENTE: flex-flow: row wrap; / flex-flow: column wrap; / flex-flow:column-reverse wrap;</h2>
 
         <h2>A CONTINUACIÓN VAMOS A VER CÓMO SE APLICA LA PROPIEDAD FLEX-GROW A LOS ELEMENTOS HIJO DEL PADRE. Se trata de una propiedad que para que funcione, tiene que aplicarse únicamente a los hijos, a cada uno de ellos. Lo vemos:</h2>
         <section id="layout9">
@@ -277,6 +277,10 @@
             <div class="caja orange">
                 Caja 4
             </div>
+            <h3>Como observamos, la caja 1 es más grande porque le hemos dado un flex-grow mayor que a sus hermanas. Por lo que le permitimos que ocupe más espacio y le damos mayor preferencia. Podríamos aumentar mucho el flex-grow, pero el espacio disponible en el container-padre se repartiría, por lo que aunque alcancemos números muy altos, el resultado sería parecido: las cajas se reparten y comparten el espacio disponible en el container-padre. <br>
+            Y además, añadiendo esta propiedad a los hjos, el RESPONSIVE se torna un sueño hecho realidad porque se adaptan de forma automática a las diferentes dimensiones de pantalla. Haz la prueba, abre la consola del navegador y juega. <br>
+            Además, esta propiedad tendremos que acompañarla de otra: flex-basis, que define el tamaño mínimo de cada cajita o hijo. Así conseguiremos cajas realmente flexibles entre sí. <br>
+            Recuerda siempre esta combinación: FLEX-GROW + FLEX-BASIS = éxito para tus containers-hijos.</h3>
         </section>
     </body>
 </html>
